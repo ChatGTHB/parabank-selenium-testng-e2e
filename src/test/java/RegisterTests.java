@@ -10,7 +10,7 @@ public class RegisterTests extends BaseTest {
     LoginPage loginPage = new LoginPage();
     HomePage homePage = new HomePage();
 
-    @Test(description = "Kullanici olusturma kontrolu")
+    @Test(description = "User registration check")
     public void loginSuccessfulControl() {
         String username = createUserName();
 
@@ -18,7 +18,7 @@ public class RegisterTests extends BaseTest {
 
         registerPage.fillFirstName("Test")
                 .fillLastName("QA")
-                .fillAddress("Ankara Cad.")
+                .fillAddress("Ankara St.")
                 .fillCity("Ankara")
                 .fillState("State")
                 .fillZipCode("06000")

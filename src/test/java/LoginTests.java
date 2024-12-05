@@ -10,7 +10,7 @@ public class LoginTests extends BaseTest {
     HomePage homePage = new HomePage();
     MainPage mainPage = new MainPage();
 
-    @Test(description = "Basarili kullanici girisi kontrolu")
+    @Test(description = "Successful user login check")
     public void loginSuccessfulControl() {
         loginPage.fillUsername(username)
                 .fillPassword(password)
@@ -19,7 +19,7 @@ public class LoginTests extends BaseTest {
         homePage.accountControl("Welcome " + username);
     }
 
-    @Test(description = "Basarisiz kullanici girisi kontrolu")
+    @Test(description = "Unsuccessful user login check")
     public void loginUnsuccessfulControl() {
         loginPage.fillUsername(username)
                 .fillPassword("12345")
@@ -28,7 +28,7 @@ public class LoginTests extends BaseTest {
         mainPage.errorControlMessage("The username and password could not be verified.");
     }
 
-    @Test(description = "Required kontrolu")
+    @Test(description = "Required field check")
     public void loginRequiredControl() {
         loginPage.fillUsername("")
                 .fillPassword("")

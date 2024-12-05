@@ -7,11 +7,10 @@ import org.openqa.selenium.By;
 
 public class MainPage extends BaseTest {
 
-    @Step("Hata mesaji kontrol edilir.")
+    @Step("Error message is checked.")
     public MainPage errorControlMessage(String message) {
         String text = driver.findElement(By.cssSelector("[class='error']")).getText();
         Assert.assertEquals(message, text);
         return this;
     }
 }
-
