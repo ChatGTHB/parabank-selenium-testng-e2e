@@ -1,5 +1,5 @@
 
-# Parabank Test Automation
+# Parabank Selenium TestNG E2E
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
@@ -43,13 +43,13 @@ src
 ### Cloning the Repository
 Clone the repository to your local machine:
 ```bash
-git clone https://github.com/ChatGTHB/parabank-test-automation.git
+git clone https://github.com/ChatGTHB/parabank-selenium-testng-e2e.git
 ```
 
 ### Importing into IntelliJ IDEA from VCS
 1. Open IntelliJ IDEA.
 2. Go to `File > New > Project from Version Control`.
-3. Select `Git` and enter the repository URL: `https://github.com/ChatGTHB/parabank-test-automation.git`.
+3. Select `Git` and enter the repository URL: `https://github.com/ChatGTHB/parabank-selenium-testng-e2e.git`.
 4. Click `Clone`.
 
 ### Dependencies
@@ -59,7 +59,7 @@ The project dependencies are managed through Maven, which automatically handles 
 - **Allure TestNG** for reporting.
 - **AspectJ Weaver** for AOP (Aspect-Oriented Programming) support.
 
-For the complete list of dependencies, please refer to the [`pom.xml`](https://github.com/ChatGTHB/parabank-test-automation/blob/main/pom.xml) file.
+For the complete list of dependencies, please refer to the [`pom.xml`](https://github.com/ChatGTHB/parabank-selenium-testng-e2e/blob/main/pom.xml) file.
 
 ## ⚙️ Usage
 ### Running Tests
@@ -126,4 +126,4 @@ Contributions are welcome! Please follow these steps:
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-For more information on how to get started, visit the [ParabankTestAutomation GitHub repository](https://github.com/ChatGTHB/parabank-test-automation).
+For more information on how to get started, visit the [ParabankTestAutomation GitHub repository](https://github.com/ChatGTHB/parabank-selenium-testng-e2e).
